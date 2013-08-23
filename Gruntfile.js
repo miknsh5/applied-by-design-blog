@@ -278,16 +278,16 @@ module.exports = function (grunt) {
         }]
       }
     },
-    svgmin: {
-      dist: {
-        files: [{
-          expand: true,
-          cwd: '<%= yeoman.dist %>',
-          src: '**/*.svg',
-          dest: '<%= yeoman.dist %>'
-        }]
-      }
-    },
+    // svgmin: {
+    //   dist: {
+    //     files: [{
+    //       expand: true,
+    //       cwd: '<%= yeoman.dist %>',
+    //       src: '**/*.svg',
+    //       dest: '<%= yeoman.dist %>'
+    //     }]
+    //   }
+    // },
     copy: {
       dist: {
         files: [{
@@ -392,7 +392,7 @@ module.exports = function (grunt) {
     'cssmin',
     'uglify',
     'imagemin',
-    'svgmin',
+    // 'svgmin',
     'rev',
     'usemin',
     'htmlmin'

@@ -8,7 +8,10 @@
 
 // @import "../applied-by-design/app/styles/lib/colors.scss";
 // @import "../applied-by-design/app/styles/lib/navigation.scss";
-@import "../_bower_components/sass-bootstrap/lib/bootstrap.scss";
+@import "sass-bootstrap/lib/bootstrap.scss";
+@import '../fonts/myfonts';
+// @import "../applied-by-design/app/styles/fonts/myfonts";
+
 // @import "github2.scss";
 
 
@@ -164,6 +167,10 @@ ul.posts span {
 
 .site .footer .rss img {
   border: 0;
+}
+
+.site .social-media {
+  font-size: 1.4rem;
 }
 
 /*****************************************************************************/
