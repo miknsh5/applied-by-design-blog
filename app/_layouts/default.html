@@ -16,35 +16,52 @@
 
     </head>
     <body>
-
+      <!-- PRIMARY NAVIGATION -->
+                <!-- <img src="/image/logo-04-lt.png" alt="Applied by Design"> -->
+      <div class="navbar navbar-default navbar-fixed-top navbar-inverse">
         <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand logo" href="#">
+              <img src="/image/logo-04-lt.png" alt="Applied by Design">
+            </a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="../navbar/">Services</a></li>
+              <li><a href="../navbar-static-top/">About</a></li>
+              <li class="active"><a href="./">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+
+
+
+
+
+
           <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
 
                 {{ content }}
 
             <div class="footer">
               <div class="contact">
                 <p>
-                  miknsh5<br />
-                  <a href="mailto:mnash5@gmail.com">mnash5@gmail.com</a>
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/miknsh5/">github.com/miknsh5</a><br />
-                  <a href="http://twitter.com//">twitter.com/</a><br />
+                  <a mailto="info@appliedbydesign.com">info@appliedbydesign.com</a><br />
+                  <a href="http://twitter.com/appliedbydesign/">twitter.com/</a><br />
                 </p>
               </div>
             </div>
           </div>
-        </div> <!-- /container -->
 
     <!-- build:js(app) /js/scripts.js -->
-    <script src="/js/main.js"></script>
+    <script src="../_bower_components/jquery/jquery.min.js"></script>
+    <script src="../_bower_components/sass-bootstrap/dist/js/bootstrap.js"></script>
     <!-- endbuild -->
     </body>
 </html>

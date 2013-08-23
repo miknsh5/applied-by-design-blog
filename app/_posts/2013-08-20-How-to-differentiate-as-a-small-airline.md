@@ -3,7 +3,6 @@ layout: post
 title:  "Design vs Data"
 date:   2013-08-12 18:51:33
 categories: jekyll update
-author: "Ben Parkison"
 ---
 
 
