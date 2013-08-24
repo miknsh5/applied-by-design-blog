@@ -105,7 +105,7 @@ ul.posts span {
 
 .site .header {
   text-align: center;
-  padding-bottom: 20px;
+  padding: 40px;
 }
 
 .site .header a {
@@ -137,6 +137,14 @@ ul.posts span {
 
 .site .meta {
   color: #888;
+}
+
+.site .post-container {
+  padding: 30px 0;
+
+  h1 {
+    border-bottom: solid 1px #ccc;
+  }
 }
 
 .site .post-wrap {
@@ -172,7 +180,7 @@ ul.posts span {
 
 
 .site .footer {
-  font-size: 80%;
+  font-size: 100%;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
