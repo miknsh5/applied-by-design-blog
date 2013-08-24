@@ -3,17 +3,22 @@
 /* Common
 /*
 /*****************************************************************************/
-// @import "../applied-by-design/app/components/sass-bootstrap/lib/bootstrap";
-// @import "../applied-by-design/app/components/sass-bootstrap/lib/responsive";
 
-// @import "../applied-by-design/app/styles/lib/colors.scss";
-// @import "../applied-by-design/app/styles/lib/navigation.scss";
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+// /* Small devices (tablets, 768px and up) */
+// @media (min-width: @screen-sm) { ... }
+
+// /* Medium devices (desktops, 992px and up) */
+// @media (min-width: @screen-md) { ... }
+
+// /* Large devices (large desktops, 1200px and up) */
+// @media (min-width: @screen-lg) { ... }
+
+
 @import "sass-bootstrap/lib/bootstrap.scss";
 @import '../fonts/myfonts';
-// @import "../applied-by-design/app/styles/fonts/myfonts";
-
-// @import "github2.scss";
-
 
 
 html, body { 
@@ -72,16 +77,35 @@ ul.posts span {
 
 .site {
   font-size: 1rem;
-  text-align: justify;
+  // text-align: justify;
   max-width: 42em;
-  padding: 20px;
+  // padding: 20px 20px 20px 20px;
   margin: 5em auto 2em;
   line-height: 1.6em;
 
   h2 {
-    padding-top: 20px;
-    border-top: solid 1px #ccc;
+    margin-top: 5px;
   }
+
+  p {
+    margin: 0.5em auto;
+  }
+
+  span {
+    color: #aaa;
+  }
+
+  .separator {
+    position: relative;
+    width: 80%;
+    border-bottom: solid 1px #ccc;
+    margin: auto;
+  }
+}
+
+.site .header {
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .site .header a {
@@ -116,31 +140,36 @@ ul.posts span {
 }
 
 .site .post-wrap {
-    padding: 0 20px;
-    border-left: none;
-    margin-left: -8px;
-//   background-color: #FFF;
-//   padding: 25px;
+  border-left: solid 8px #FFF;
+  margin: 20px 0;
 
-//   -webkit-transition-property: background-color;
-//   -moz-transition-property: background-color;
-//   -o-transition-property: background-color;
-//   transition-property: background-color;
-//   -webkit-transition-duration: 0.5s;
-//   -moz-transition-duration: 0.5s;
-//   -o-transition-duration: 0.5s;
-//   transition-duration: 0.5s;
-
-   
-  &:hover {
-    border-left: solid 8px #ccc;
-    margin-left: -16px;
+  @media (min-width: $screen-md){
+    
+    padding: 0 0 0 10px;
+    -webkit-transition-property: border-left;
+    -moz-transition-property: border-left;
+    -o-transition-property: border-left;
+    transition-property: border-left;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+      
+    &:hover {
+      border-left: solid 8px #ccc;
+    }
   }
+
+  .author {
+    @media (min-width: $screen-sm){
+      text-align: right;
+    }
+  }
+
+  
+
 }
 
-// .site .subtitle {
-//   color: #888;
-// }
 
 .site .footer {
   font-size: 80%;

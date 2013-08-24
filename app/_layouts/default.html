@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- build:css({app,.tmp}) /css/main.css -->
         <!-- Syntax highlighting CSS -->
@@ -26,38 +26,37 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand logo" href="#">
+            <a class="navbar-brand logo" href="http://www.appliedbydesign.com">
               <img src="/image/logo-04-lt.png" alt="Applied by Design">
             </a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="../navbar/">Services</a></li>
-              <li><a href="../navbar-static-top/">About</a></li>
-              <li class="active"><a href="./">Contact</a></li>
+              <li><a href="http://www.appliedbydesign.com/#/services">Services</a></li>
+              <li><a href="http://www.appliedbydesign.com/#/about">About</a></li>
+              <!-- <li class="active"><a href="./">Contact</a></li> -->
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
 
 
+      <div class="container">
+        <div class="site">
 
+              {{ content }}
 
-
-
-          <div class="site">
-
-                {{ content }}
-
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  <a mailto="info@appliedbydesign.com">info@appliedbydesign.com</a><br />
-                  <a href="http://twitter.com/appliedbydesign/">twitter.com/</a><br />
-                </p>
-              </div>
+          <div class="footer">
+            <div class="contact">
+              <p>
+                <a mailto="info@appliedbydesign.com">info@appliedbydesign.com</a><br />
+                <!-- <a href="http://twitter.com/appliedbydesign/">twitter.com/</a><br /> -->
+              </p>
             </div>
           </div>
+        </div>
+      </div>
+
 
     <!-- build:js(app) /js/scripts.js -->
     <script src="{{site.url}}/_bower_components/jquery/jquery.min.js"></script>
