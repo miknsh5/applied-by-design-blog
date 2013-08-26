@@ -97,7 +97,7 @@ ul.posts span {
 
   .separator {
     position: relative;
-    width: 80%;
+    width: 100%;
     border-bottom: solid 1px #ccc;
     margin: auto;
   }
@@ -153,7 +153,7 @@ ul.posts span {
 
   @media (min-width: $screen-md){
     
-    padding: 0 0 0 10px;
+    padding: 0 0 0 30px;
     -webkit-transition-property: border-left;
     -moz-transition-property: border-left;
     -o-transition-property: border-left;
@@ -173,17 +173,22 @@ ul.posts span {
       text-align: right;
     }
   }
-
-  
-
 }
 
+.site .paginate {
+  text-align: center;
+  border-top: solid 1px #ccc;
+  padding-top: 10px;
+
+  .ikon {
+    font-size: 0.8em;
+  }
+}
 
 .site .footer {
-  font-size: 100%;
+  font-size: 80%;
   color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
+  border-top: 1px solid #ccc;
   overflow: hidden;
 }
 

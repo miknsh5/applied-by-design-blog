@@ -22,6 +22,9 @@ exclude: ['image', 'css', 'js', 'fonts',
 # .htaccess is a good example since dotfiles are excluded by default.
 include: ['.htaccess']
 
+# pagination settings
+paginate: 5
+
 # Default post path style
 # date  /:categories/:year/:month/:day/:title.html
 # pretty  /:categories/:year/:month/:day/:title/
