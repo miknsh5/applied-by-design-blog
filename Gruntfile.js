@@ -24,9 +24,14 @@ module.exports = function (grunt) {
     yeoman: yeomanConfig,
 
     watch: {
-      sass: {
-        files: ['<%= yeoman.app %>/_scss/**/*.{scss,sass}'],
-        tasks: ['sass:server']
+      // sass: {
+      //   files: ['<%= yeoman.app %>/_scss/**/*.{scss,sass}'],
+      //   // files: ['<%= yeoman.app %>/../../applied-by-design/app/styles/**/*.{scss,sass}'],
+      //   tasks: ['sass:server']
+      // },
+      compass: {
+        files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
+        tasks: ['compass']
       },
       prefixCss: {
         files: ['<%= yeoman.app %>/css/**/*.css'],
@@ -110,38 +115,55 @@ module.exports = function (grunt) {
       },
       server: ['.tmp', '.jekyll']
     },
-    sass: {
+    compass: {
       options: {
-        bundleExec: true,
-        debugInfo: false,
-        lineNumbers: false,
-        loadPath: 'app/_bower_components'
+        sassDir: '<%= yeoman.app %>/_scss',
+        cssDir: '.tmp/css',
+        imagesDir: '<%= yeoman.app %>/image',
+        javascriptsDir: '<%= yeoman.app %>/js',
+        fontsDir: '<%= yeoman.app %>/fonts',
+        importPath: '<%= yeoman.app %>/_bower_components',
+        relativeAssets: false
       },
-      dist: {
-        files: [{
-          expand: true,
-          cwd: '<%= yeoman.app %>/_scss',
-          src: '**/*.{scss,sass}',
-          dest: '.tmp/css',
-          filter: 'isFile',
-          ext: '.css'
-        }]
-      },
+      dist: {},
       server: {
         options: {
-          debugInfo: true,
-          lineNumbers: true
-        },
-        files: [{
-          expand: true,
-          cwd: '<%= yeoman.app %>/_scss',
-          src: '**/*.{scss,sass}',
-          dest: '.tmp/css',
-          filter: 'isFile',
-          ext: '.css'
-        }]
+          debugInfo: true
+        }
       }
     },
+    // sass: {
+    //   options: {
+    //     bundleExec: true,
+    //     debugInfo: false,
+    //     lineNumbers: false,
+    //     loadPath: 'app/_bower_components'
+    //   },
+    //   dist: {
+    //     files: [{
+    //       expand: true,
+    //       cwd: '<%= yeoman.app %>/_scss',
+    //       src: '**/*.{scss,sass}',
+    //       dest: '.tmp/css',
+    //       filter: 'isFile',
+    //       ext: '.css'
+    //     }]
+    //   },
+    //   server: {
+    //     options: {
+    //       debugInfo: true,
+    //       lineNumbers: true
+    //     },
+    //     files: [{
+    //       expand: true,
+    //       cwd: '<%= yeoman.app %>/_scss',
+    //       src: '**/*.{scss,sass}',
+    //       dest: '.tmp/css',
+    //       filter: 'isFile',
+    //       ext: '.css'
+    //     }]
+    //   }
+    // },
     autoprefixer: {
       options: {
         browsers: ['last 2 versions']
@@ -337,12 +359,14 @@ module.exports = function (grunt) {
     },
     concurrent: {
       server: [
-        'sass:server',
+        // 'sass:server',
+        'compass:server',
         'copy:stageCss',
         'jekyll:server'
       ],
       dist: [
-        'sass:dist',
+        // 'sass:dist',
+        'compass:dist',
         'copy:dist'
       ]
     }
@@ -376,7 +400,8 @@ module.exports = function (grunt) {
 
   grunt.registerTask('report', [
     'clean:server',
-    'sass:server',
+    // 'sass:server',
+    'compass:server',
     'jshint:report',
     'csscss:report',
     'csslint:report'
