@@ -19,6 +19,7 @@
       <!-- PRIMARY NAVIGATION -->
       <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
+        
           <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
               <span class="icon-bar"></span>
@@ -30,46 +31,40 @@
              <!-- <div class="logo"></div> -->
             </a>
           </div>
+
+          
           <div class="navbar-collapse collapse">
+            
             <ul class="nav navbar-nav pull-right">
 
-             <!-- <li class="dropdown">
-               <a class="dropdown-toggle" data-toggle="dropdown">Our Work <b class="caret"></b></a>
-               <ul class="dropdown-menu">
-                 <li><a href="#">Services</a></li>
-                 <li><a href="#">Method</a></li>
-               </ul>
-             </li> -->
+
              <li class="dropdown">
                 <a class="dropdown-toggle pointer" data-toggle="dropdown">Our Company <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li id="about-btn"><a href="#">About</a></li>
-                  <li id="contact-btn"><a href="#">Contact</a></li>
-                  <li><a href="http://blog.appliedbydesign.com">Blog</a></li>
-                  <!-- <li><a href="http://blog.appliedbydesign.com">Blog</a></li> -->
+                  <li id="about-btn"><a href="http://appliedbydesign.com/#about-anchor">About</a></li>
+                  <li id="contact-btn"><a href="http://appliedbydesign.com/#contact-anchor">Contact</a></li>
+                  <li><a href="#">Blog</a></li>
                 </ul>
               </li>
             </ul>
-
           </div><!--/.navbar-collapse -->
         </div>
       </div>
 
 
-      <!-- <div class="container"> -->
-        <!-- <div class="site"> -->
+      {{ content }}
 
-              {{ content }}
-
-        <!-- </div> -->
-      <!-- </div> -->
 
       <footer>
         <div class="container">
+          <div id="feedly-btn">
+            <a href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Fblog.appliedbydesign.com%2Ffeed.xml'  target='blank'><img id='feedlyFollow' src='{{site.url}}/image/feedly-follow-logo-green_2x.png' alt='follow us in feedly' width='71' height='28'></a>
+          </div>
+
           <div class="row">
             <div class="copyright"><p>© Applied by Design 2013</p></div>
           </div>
-        </div>
+          </div>
       </footer>
 
     <!-- build:js(app) /js/scripts.js -->
