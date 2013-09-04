@@ -30,7 +30,7 @@ module.exports = function (grunt) {
       //   tasks: ['sass:server']
       // },
       compass: {
-        files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
+        files: ['<%= yeoman.app %>/_scss/{,*/}*.{scss,sass}'],
         tasks: ['compass']
       },
       prefixCss: {
