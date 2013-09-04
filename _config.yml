@@ -4,14 +4,14 @@
 # it doesn't work, check if it is set in the Gruntfile. There is also a
 # _config.build.yml to set custom overrides for `grunt build`.
 
-name: applied-by-design-blog
-description: Blog
+name: Applied by Design Blog
+description: Modern Application Development for the Aviation Industry
+# url: http://blog.appliedbydesign.com
 
 author:
-  name: miknsh5
-  email: mnash5@gmail.com
-  github: miknsh5
-  twitter: 
+  name: Applied by Design
+  email: info@appliedbydesign.com
+  twitter: appliedbydesign
 
 # Exclude directories and/or files from the conversion.
 # Grunt moves image files and asset directories.
