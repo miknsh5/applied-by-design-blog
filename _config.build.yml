@@ -4,6 +4,15 @@
 # Note: Grunt handles some Jekyll configuration. If you set something here and
 # it doesn't work, check if it is set in the Gruntfile.
 
+name: Applied by Design Blog
+description: Modern Application Development for the Aviation Industry
+url: http://blog.appliedbydesign.com
+
+author:
+  name: Applied by Design
+  email: info@appliedbydesign.com
+  twitter: appliedbydesign
+
 # Publish posts with future date.
 future: false
 
