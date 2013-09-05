@@ -6,7 +6,7 @@ categories:
 author: "Ben Parkison"
 ---
 
-*Here at Applied by Design we're working to putting the right tools in the hands of aviation industry decision makers.*
+*Here at Applied by Design we're working to put the right tools in the hands of aviation industry decision makers.*
 
 While we're at it we'll be using this space to post our vision of where we're going next. Check out the rest of the site to learn more, and follow us via your favorite outlet (Twitter, LinkedIn, Google+) to keep up with the latest.
 
