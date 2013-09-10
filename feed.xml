@@ -7,32 +7,32 @@
 		<atom:link href="http://blog.appliedbydesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Building Better Applications</title>
-				<description>&lt;p&gt;Central to an Applied by Design application solution is our development methodology.  We think it&amp;#39;s important to draw attention to not just &lt;em&gt;what&lt;/em&gt; we think, but &lt;em&gt;how&lt;/em&gt; we think as a company. &lt;/p&gt;
+				<title>Mitigating Risk with Prototypes</title>
+				<description>&lt;p&gt;Central to an Applied by Design application solution is our development methodology.  We think it&amp;#39;s important to draw attention to not just &lt;strong&gt;what&lt;/strong&gt; we think, but &lt;strong&gt;how&lt;/strong&gt; we think as a company. &lt;/p&gt;
 
-&lt;p&gt;As organizations begin to dip their toes into the realm of modern browser-based applications, we believe it&amp;#39;s necessary to adopt a development methodology that embraces modern technology stacks while combating the common complexities and risks that manifest themselves in more traditional enterprise development projects.  At the center of this methodology is prototyping.&lt;/p&gt;
+&lt;p&gt;As organizations begin to dip their toes into the realm of modern browser-based applications, we believe it&amp;#39;s necessary to adopt a development methodology that embraces modern technology stacks while combating the common complexities and risks that manifest themselves in more traditional enterprise development projects.  At the center of our methodology is prototyping.&lt;/p&gt;
 
 &lt;p&gt;Prototyping isn&amp;#39;t a new concept in application development, but there&amp;#39;s been a resurgence in attention to this approach being driven by recent thin client application development (browser-based applications).  Browser-based applications are built prevalently around open-source technology frameworks, and the pace of innovation in this space is phenomenal.  As these technologies mature, the pace of development itself has increased to a point where functional application prototypes are becoming less time consuming and higher fidelity, mitigating some of the immediate concerns with prototyping in the past.  &lt;/p&gt;
 
-&lt;p&gt;Our development methodology at Applied by Design has evolved to resemble a hybrid form of rapid application development (RAD) that lends concepts from extreme prototyping, evolutionary prototyping, and a healthy appreciation for Test Driven Development (TDD).  In a RAD environment, the design and development of an application prototype typically take place concurrently as a team builds a prototype.  We agree, and we further believe that strategy and design deserve concurrent attention as well.  The result is a model that looks like this, &lt;/p&gt;
+&lt;p&gt;Our development methodology at Applied by Design has evolved to resemble a hybrid form of rapid application development that lends concepts from extreme prototyping, evolutionary prototyping, and a healthy appreciation for Test Driven Development (TDD).  We&amp;#39;ll dive into the details of the methodology at a later date, but for now let&amp;#39;s focus on the concept of prototypes and why we use them at the core of our development process.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/image/AxD-Methodology-2.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/image/PrototypeDiagram.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;Strategy and development occur sequentially, while design is pervasive to virtually every aspect of the project. By design, we&amp;#39;re referring more specifically to problem solving.  It encompasses UI and screen mockups, data design, analytical models, and an overall focus on finding the most efficient way to communicate information.  Extreme prototyping encourages our use of static application mockups and design comps, while evolutionary prototyping influences our technology framework decisions early on.  This helps ensure that we&amp;#39;re able to leverage the effort put into prototypes, not simply throw them away and start from scratch.  &lt;/p&gt;
+&lt;p&gt;In our experience, extreme and evolutionary prototype concepts help promote an appropriate degree of systematic thinking during multiple stages of the project lifecycle.  It encourages both developers and business stakeholders to understand &lt;strong&gt;why&lt;/strong&gt; decisions are being made, and it helps surface issues earlier in the application lifecycle.  The results are more actionable developer requirements, better stakeholder alignment, reduced long-term project risk, earlier user involvement, and more efficient application development. &lt;/p&gt;
 
-&lt;p&gt;In our experience, extreme and evolutionary prototype concepts help promote an appropriate degree of systematic thinking during multiple stages of the project lifecycle.  It encourages both developers and business stakeholders to understand &amp;#39;why&amp;#39; decisions are being made, and it helps surface issues earlier in the application lifecycle.  The results are more actionable developer requirements, better stakeholder alignment, reduced long-term project risk, and more efficient application development. &lt;/p&gt;
+&lt;p&gt;Most importantly, in our experience a high fidelity prototype &lt;strong&gt;facilitates the communication of detailed requirements more efficiently&lt;/strong&gt; than the most robust set of traditional requirements artifacts.  We fully embrace user stories, use case scenarios, and strategy diagrams in our process, but we recognize that these are merely communication tools meant to align understanding and trace business needs to actionable development tasks.  &lt;/p&gt;
 
-&lt;p&gt;Lastly, taking a Test Driven Development approach to application development helps further advance the pace of application development by reducing debugging tasks and encouraging a more modularized codebase.  Our preferred development framework, AngularJS, also strongly encourages TDD with well supported out of the box testing tools that drastically simplify the learning curve.  &lt;/p&gt;
+&lt;p&gt;Achieving a single common mental model in the minds of all project team members is difficult, and we&amp;#39;ve witnessed how the use of high fidelity prototypes can effectively break down the cognitive discrepancies that can exist between stakeholders.  Each person on a team may have a different image in their mind associated with a given set of written or verbal project requirements.  The role of the application prototype is simply to align each team member&amp;#39;s mental model on a single, common representation that all can see and agree on.  Until arriving at this stage, a team can never be truly confident that everyone&amp;#39;s speaking the same language.  &lt;/p&gt;
 
-&lt;p&gt;As we work through our next application project, we&amp;#39;re planning to dive into greater details for each piece of the development methodology.  We&amp;#39;re constantly evolving with changes in technology and with the industry itself, and as we mature we&amp;#39;ll be sharing what we learn along the way. &lt;/p&gt;
+&lt;p&gt;The objective of every project we engage in at Applied by Design is to arrive at this shared project understanding as fast as possible.  The prototype acts as the common ground where stakeholders can unite and spring off of into the next stage of development.  We think this is concept is critical to the success of any development project.  &lt;strong&gt;We use prototyping at Applied by Design because it helps us build better applications, faster&lt;/strong&gt;. &lt;/p&gt;
 
-&lt;p&gt;This is how we frame development projects at Applied by Design, and how we build better applications. This is how we think. &lt;/p&gt;
+&lt;p&gt;As we work through our next application project, we&amp;#39;ll share more examples of prototyping in action.  We&amp;#39;re constantly evolving with changes in technology and with the industry itself, and as we mature we&amp;#39;ll be sharing what we learn along the way. Stay tuned!&lt;/p&gt;
 
 &lt;p&gt;///AxD&lt;/p&gt;
 </description>
-				<pubDate>Mon, 09 Sep 2013 11:51:33 -0700</pubDate>
-				<link>http://blog.appliedbydesign.com/design,/development,/strategy/2013/09/09/prototyping-development-methodology.html</link>
-				<guid isPermaLink="true">http://blog.appliedbydesign.com/design,/development,/strategy/2013/09/09/prototyping-development-methodology.html</guid>
+				<pubDate>Tue, 10 Sep 2013 06:50:33 -0700</pubDate>
+				<link>http://blog.appliedbydesign.com/prototype,/development/2013/09/10/mitigating-risk-with-prototypes.html</link>
+				<guid isPermaLink="true">http://blog.appliedbydesign.com/prototype,/development/2013/09/10/mitigating-risk-with-prototypes.html</guid>
 			</item>
 		
 			<item>
