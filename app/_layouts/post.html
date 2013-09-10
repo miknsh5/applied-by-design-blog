@@ -22,7 +22,11 @@ layout: default
 <div class="site post">
   <div class="container blog-inner">
     <div class="headshot">
-      <img src="/image/headshot-ben.png" alt="Ben Parkison Photo" >
+      {% if page.author == 'Ben Parkison' %}
+        <img src="/image/headshot-ben.png" alt="Ben Parkison Photo" >
+      {% elsif page.author == 'Mike Nash' %}
+        <img src="/image/headshot-nash.png" alt="Ben Parkison Photo" >
+      {% endif %}
       <div class="author">{{ page.author }}</div>
     </div>
     <div class="post-container">
