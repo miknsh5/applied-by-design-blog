@@ -4,7 +4,7 @@ title:  "Analytical User Personas"
 date:   2013-09-17 10:45:33
 categories: Design
 author: "Mike Nash"
-image: /image/user-persona-cover.png
+image: /image/persona-cover.png
 ---
 
 *We've discussed how we use [rapid prototyping on the development end of our process](http://blog.appliedbydesign.com/development/2013/09/10/mitigating-risk-with-prototypes.html) at Applied by Design and its ability to align stakeholder's mental models of a system or application.  User personas serve a similar purpose in delivering shared understanding of the intended end-user of the system.*  
@@ -13,7 +13,8 @@ User personas play a key role in our approach to user-centered design.  They att
 
 I'll admit, user personas can be pretty fluffy.  The trick for us was to add our own modern spin on the artifact of a persona to better support and resonate with our design process.  What we were looking for was something with less 'fluff' and more of an analytical basis as our customers are often engineering or technical teams.  We ended up taking more of an infographic approach to the user persona.  Here's a peek at a sample we put together.  
 
-![image](/image/Analytical-User-Persona.png)
+<!-- ![image](/image/Analytical-User-Persona.png) -->
+<div class="text-center"> <img src="/image/Analytical-User-Persona.jpg"> </div>
 
 <span class="blue-text">Blue information</span> is for this specific persona (Ben, Aviation Analyst).  <span class="orange-text">Orange information</span> references the aggregate set of personas for a given team or project (there are 3 personas that represent the 25 team members in this example).  Let's break some of it down by section.
 
