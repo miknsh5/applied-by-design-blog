@@ -4,6 +4,7 @@ title:  "Analytical User Personas"
 date:   2013-09-17 10:45:33
 categories: Design
 author: "Mike Nash"
+image: /image/user-persona-cover.png
 ---
 
 *We've discussed how we use [rapid prototyping on the development end of our process](http://blog.appliedbydesign.com/development/2013/09/10/mitigating-risk-with-prototypes.html) at Applied by Design and its ability to align stakeholder's mental models of a system or application.  User personas serve a similar purpose in delivering shared understanding of the intended end-user of the system.*  

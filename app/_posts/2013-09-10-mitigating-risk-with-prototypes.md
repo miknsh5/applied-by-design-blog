@@ -4,6 +4,7 @@ title:  "Mitigating Risk with Prototypes"
 date:   2013-09-10 13:50:33
 categories: Development
 author: "Mike Nash"
+image: /image/prototype-cover.png
 ---
 
 *Central to an Applied by Design application solution is our development methodology.  We think it's important to draw attention to not just* **what** *we think, but* **how** *we think as a company.* 

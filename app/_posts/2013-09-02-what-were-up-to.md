@@ -4,6 +4,7 @@ title:  "What We're Up To"
 date:   2013-08-30 18:51:33
 categories: 
 author: "Ben Parkison"
+image: /image/axd-post-cover.png
 ---
 
 *Here at Applied by Design we're working to put the right tools in the hands of aviation industry decision makers.*

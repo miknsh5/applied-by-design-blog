@@ -4,6 +4,7 @@ title:  "Two Sides of the Same Coin"
 date:   2013-09-01 18:51:33
 categories: Design
 author: "Ben Parkison"
+image: /image/two-sides-same-coin-cover.png
 ---
 
 *Developing better airline applications for planning, operations and business strategy creates a better passenger experience.*

@@ -88,13 +88,14 @@ ul.posts span {
   padding-bottom: 50px;
   
   &.post {
-    margin-top: 300px;
+    margin-top: 330px;
   }
 
   .headshot {
     width: 100%;
-    // margin: auto;
+    margin-top: -120px;
     text-align: center;
+
     img {
       width: 100px;
     }
@@ -129,6 +130,7 @@ ul.posts span {
     width: 100%;
     border-bottom: solid 1px #ccc;
     margin: auto;
+    clear: both;
 
     &:first-child {
       border-bottom: none;
@@ -165,9 +167,46 @@ ul.posts span {
   //   }
   // }
 
-  .author {
-    @media (min-width: $screen-sm){
-      text-align: right;
+
+  // .author {
+  //   @media (min-width: $screen-sm){
+  //     text-align: right;
+  //   }
+  // }
+
+  .post-cover {
+    // display: inline-block;
+    width: 140px;
+    position: relative;
+    float: left;
+    padding-right: 20px;
+    margin: 25px 0;
+
+
+    img {
+      width: 100%;
+      border: solid 5px #ddd;
+    }
+  }
+
+  .post-info {
+    display: inline-block;
+    width: 38em;
+    // @media (min-width: $screen-sm){
+    //   width: 100%;
+    //   text-align: center;
+    // }
+  }
+
+  @media (max-width: $screen-sm){
+    .post-cover {
+      margin: auto;
+      float: none;
+      margin-top: 20px;
+    }
+    .post-info {
+      text-align: center;
+      width: 95%;
     }
   }
 }
