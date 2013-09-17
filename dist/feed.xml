@@ -7,6 +7,53 @@
 		<atom:link href="http://blog.appliedbydesign.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Analytical User Persona</title>
+				<description>&lt;p&gt;We&amp;#39;ve discussed how we use &lt;a href=&quot;http://blog.appliedbydesign.com/development/2013/09/10/mitigating-risk-with-prototypes.html&quot;&gt;rapid prototyping on the development end of our process&lt;/a&gt; at Applied by Design and its ability to align stakeholder&amp;#39;s mental models of a system or application.  User personas serve a similar purpose in delivering shared understanding of the &lt;strong&gt;intended end-user&lt;/strong&gt; of the system.  &lt;/p&gt;
+
+&lt;p&gt;User personas play a key role in our approach to user-centered design.  They attempt to bucket common traits, behavioral tendencies, and properties of a target audience into a subset of generalized archetypes.  Instead of designing an application to meet the needs of 100 different users, a detailed persona seeks to generalize the subset of users you&amp;#39;re specifically targeting with your design.  Now, your team can focus on the needs of a single fictitious character, all the while developing a product that meets the needs of the greater target audience.  That&amp;#39;s the concept.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ll admit, user personas can be pretty fluffy.  The trick for us was to add our own modern spin on the artifact of a persona to better support and resonate with our design process.  What we were looking for was something with less &amp;#39;fluff&amp;#39; and more rooted in analytics as our target customers are often engineering or technical teams.  We ended up taking more of an infographic approach to the user persona.  Here&amp;#39;s a peek at a sample we put together.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/Analytical-User-Persona.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Blue information is for this specific persona (Ben, Aviation Analyst).  Orange information references the aggregate set of personas for a given team or project (there are 3 personas that represent the 25 team members in this example).  Let&amp;#39;s break some of it down by section.&lt;/p&gt;
+
+&lt;h4&gt;1. Persona Bio&lt;/h4&gt;
+
+&lt;p&gt;In our example, we&amp;#39;re helping a team of 25 employees build an application solution to facilitate their daily operations.  This persona represents one-third of the target users for the intended application.  We gather the information from user interviews and surveys statistics, and find that this group has, on average, multiple degrees and came from the airline industry prior to their current job.  In their current role, they&amp;#39;re generally aviation analysts with 10-15 years of professional experience.  The image is from an actual team member, and calling this persona &amp;#39;Ben&amp;#39; humanizes the archetype to make it easier to identify with and recall later.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/bio-header.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Design Insight&lt;/strong&gt;: Coming from the airline industry, this group should be receptive to application improvements that save them time. &lt;/p&gt;
+
+&lt;h4&gt;2. Technology&lt;/h4&gt;
+
+&lt;p&gt;We&amp;#39;re building an application solution, so we need to get a grasp on the segment&amp;#39;s comfort level with technology.  We can ask questions about their internet usage, breaking it down into subcomponents and drilling deeper into specific preferences for browser technology and email clients.  On a weekly basis, this group spends 4 hours checking email (blue bar), which is fairly consistent with the broader group of aggregate personas (orange bar).  General browsing indicates that this group spends ~40% more time per week than the team average engaging in general browsing, and they&amp;#39;re fragmented among browers.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/technology.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Design Insight&lt;/strong&gt;: This segment will be more comfortable with modern technology changes compared with their peers simply due to their increased internet exposure.&lt;/p&gt;
+
+&lt;h4&gt;3. Skills &amp;amp; Expertise&lt;/h4&gt;
+
+&lt;p&gt;Understanding a segment&amp;#39;s areas of expertise allows us to identify the application design considerations that should be most influenced by specific groups.  For example, this graphic indicates that the the &amp;quot;Ben&amp;#39;s&amp;quot; more often self-identify themselves as experts in data analytics and data visualization compared with their peers.  Conversely, they&amp;#39;re less comfortable in financial analysis.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/image/expertise.png&quot; alt=&quot;image&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Design Insight&lt;/strong&gt;: This persona group will have strong opinions related to data visualization and analytics. Seek their opinion and feedback early.&lt;/p&gt;
+
+&lt;p&gt;You get the point.  Each section should have an intended purpose.  The set of questions and attributes collected in a persona will vary with the project and the team, but concepts are still the same.  Personas generally don&amp;#39;t take this type of analytical approach, but we think a healthy appreciation for the data driving them can help instill a sense of confidence and trust in the messages they&amp;#39;re conveying.  &lt;/p&gt;
+
+&lt;p&gt;When we get into describing our design mockups and wireframes we&amp;#39;ll show how the personas can directly tie into the rest of the design process.  Used appropriately, they can help substantiate design decisions and clarify user interaction considerations.  &lt;/p&gt;
+
+&lt;p&gt;///AxD&lt;/p&gt;
+</description>
+				<pubDate>Mon, 16 Sep 2013 06:50:33 -0700</pubDate>
+				<link>http://blog.appliedbydesign.com/design/2013/09/16/analytical-user-persona.html</link>
+				<guid isPermaLink="true">http://blog.appliedbydesign.com/design/2013/09/16/analytical-user-persona.html</guid>
+			</item>
+		
+			<item>
 				<title>Mitigating Risk with Prototypes</title>
 				<description>&lt;p&gt;&lt;em&gt;Central to an Applied by Design application solution is our development methodology.  We think it&amp;#39;s important to draw attention to not just&lt;/em&gt; &lt;strong&gt;what&lt;/strong&gt; &lt;em&gt;we think, but&lt;/em&gt; &lt;strong&gt;how&lt;/strong&gt; &lt;em&gt;we think as a company.&lt;/em&gt; &lt;/p&gt;
 
