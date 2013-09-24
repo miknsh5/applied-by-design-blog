@@ -8,7 +8,7 @@
 		
 			<item>
 				<title>Hybrid Consulting</title>
-				<description>&lt;p&gt;&lt;em&gt;We offer an argument for calculated and diligent solution design, within the framework of the user population, organization and firm. This requires a new perspective on how applications are designed;  a perspective that compliments the power and agility of the new world of web application development.&lt;/em&gt;&lt;/p&gt;
+				<description>&lt;p&gt;&lt;em&gt;We offer an argument for calculated and diligent solution design, within the framework of the user population, organization and firm. This requires a new perspective on how applications are designed&lt;/em&gt;;  &lt;em&gt;a perspective that compliments the power and agility of the new world of web application development.&lt;/em&gt;&lt;/p&gt;
 
 &lt;h3&gt;Today&amp;#39;s Environment&lt;/h3&gt;
 
@@ -51,7 +51,7 @@ In this mode of thinking, strategic needs driven by organization, customer and s
 		
 			<item>
 				<title>Analytical User Personas</title>
-				<description>&lt;p&gt;&lt;em&gt;We&amp;#39;ve discussed how we use &lt;a href=&quot;http://blog.appliedbydesign.com/development/2013/09/10/mitigating-risk-with-prototypes.html&quot;&gt;rapid prototyping on the development end of our process&lt;/a&gt; at Applied by Design and its ability to align stakeholder&amp;#39;s mental models of a system or application.  User personas serve a similar purpose in delivering shared understanding of the intended end-user of the system.&lt;/em&gt;  &lt;/p&gt;
+				<description>&lt;p&gt;&lt;em&gt;We&amp;#39;ve discussed how we use &lt;a href=&quot;http://blog.appliedbydesign.com/development/2013/09/10/mitigating-risk-with-prototypes.html&quot;&gt;rapid prototyping on the development end of our process&lt;/a&gt; at Applied by Design and its ability to align stakeholder&amp;#39;s mental models of a system or application. User personas serve a similar purpose in delivering shared understanding of the intended end-user of the system.&lt;/em&gt;  &lt;/p&gt;
 
 &lt;p&gt;User personas play a key role in our approach to user-centered design.  They attempt to bucket common traits, behavioral tendencies, and properties of a target audience into a subset of generalized archetypes.  Instead of designing an application to meet the needs of 100 different users, a detailed persona seeks to generalize the subset of users you&amp;#39;re specifically targeting with your solution.  Your team can then focus on the needs of a single user who represents the needs and wants of the greater target audience.  That&amp;#39;s the concept.&lt;/p&gt;
 
@@ -94,7 +94,7 @@ In this mode of thinking, strategic needs driven by organization, customer and s
 		
 			<item>
 				<title>Mitigating Risk with Prototypes</title>
-				<description>&lt;p&gt;&lt;em&gt;Central to an Applied by Design application solution is our development methodology.  We think it&amp;#39;s important to draw attention to not just&lt;/em&gt; &lt;strong&gt;what&lt;/strong&gt; &lt;em&gt;we think, but&lt;/em&gt; &lt;strong&gt;how&lt;/strong&gt; &lt;em&gt;we think as a company.&lt;/em&gt; &lt;/p&gt;
+				<description>&lt;p&gt;&lt;em&gt;Central to an Applied by Design application solution is our development methodology. We think it&amp;#39;s important to draw attention to not just&lt;/em&gt; &lt;strong&gt;what&lt;/strong&gt; &lt;em&gt;we think, but&lt;/em&gt; &lt;strong&gt;how&lt;/strong&gt; &lt;em&gt;we think as a company.&lt;/em&gt; &lt;/p&gt;
 
 &lt;p&gt;As organizations begin to dip their toes into the realm of modern browser-based applications, we believe it&amp;#39;s necessary to adopt a development methodology that embraces modern technology stacks while combating the common complexities and risks that manifest themselves in more traditional enterprise development projects.  At the center of our methodology is prototyping.&lt;/p&gt;
 
