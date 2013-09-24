@@ -7,7 +7,7 @@ author: "Mike Nash"
 image: /image/prototype-cover.png
 ---
 
-*Central to an Applied by Design application solution is our development methodology.  We think it's important to draw attention to not just* **what** *we think, but* **how** *we think as a company.* 
+*Central to an Applied by Design application solution is our development methodology. We think it's important to draw attention to not just* **what** *we think, but* **how** *we think as a company.* 
 
 As organizations begin to dip their toes into the realm of modern browser-based applications, we believe it's necessary to adopt a development methodology that embraces modern technology stacks while combating the common complexities and risks that manifest themselves in more traditional enterprise development projects.  At the center of our methodology is prototyping.
 

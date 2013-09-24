@@ -7,7 +7,7 @@ author: "Mike Nash"
 image: /image/persona-cover.png
 ---
 
-*We've discussed how we use [rapid prototyping on the development end of our process](http://blog.appliedbydesign.com/development/2013/09/10/mitigating-risk-with-prototypes.html) at Applied by Design and its ability to align stakeholder's mental models of a system or application.  User personas serve a similar purpose in delivering shared understanding of the intended end-user of the system.*  
+*We've discussed how we use [rapid prototyping on the development end of our process](http://blog.appliedbydesign.com/development/2013/09/10/mitigating-risk-with-prototypes.html) at Applied by Design and its ability to align stakeholder's mental models of a system or application. User personas serve a similar purpose in delivering shared understanding of the intended end-user of the system.*  
 
 User personas play a key role in our approach to user-centered design.  They attempt to bucket common traits, behavioral tendencies, and properties of a target audience into a subset of generalized archetypes.  Instead of designing an application to meet the needs of 100 different users, a detailed persona seeks to generalize the subset of users you're specifically targeting with your solution.  Your team can then focus on the needs of a single user who represents the needs and wants of the greater target audience.  That's the concept.
 
