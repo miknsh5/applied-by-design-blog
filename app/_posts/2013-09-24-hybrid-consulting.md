@@ -7,7 +7,7 @@ author: "Ben Parkison"
 image: /image/hybrid-logo.jpg
 ---
 
-*We offer an argument for calculated and diligent solution design, within the framework of the user population, organization and firm. This requires a new perspective on how applications are designed*;  *a perspective that compliments the power and agility of the new world of web application development.*
+We offer an argument for calculated and diligent solution design, within the framework of the user population, organization and firm. This requires a new perspective on how applications are designed;  a perspective that compliments the power and agility of the new world of web application development.
 
 ### Today's Environment
 The arena for building web applications to support today’s business has changed. Modern web application tools make it possible for agile development cycles that take a fraction of the time of traditional processes and create lightweight, responsive solutions. This is especially true in technology industries where firms are increasingly using web applications for mission critical analysis, testing and customer engagement.

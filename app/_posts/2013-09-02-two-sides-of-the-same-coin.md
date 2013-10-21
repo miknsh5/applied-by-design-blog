@@ -7,7 +7,7 @@ author: "Ben Parkison"
 image: /image/two-sides-same-coin-cover.png
 ---
 
-*Developing better airline applications for planning, operations and business strategy creates a better passenger experience.*  
+Developing better airline applications for planning, operations and business strategy creates a better passenger experience.  
 
 Relative to many other industries, airline planning and operations require a sophisticated and continually evolving toolset. Not only do technology changes like lighter, stronger aircraft materials, innovations in aircraft fuel and the leveraging of new online tools change the way airlines work, but fields supporting those tools, such as operations research, are continually improving.
 
