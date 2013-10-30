@@ -1,13 +1,12 @@
 ---
 layout: post
 title:  "Technology Gap"
+blurb: "Your employees live in a world today where the technologies they use outside of work are increasingly better than the technologies they’re expected to use when they show up at the office."
 date:   2013-10-29 10:49:00
 categories: Technology
 author: "Mike Nash"
 image: /image/technology-gap-logo.jpg
 ---
-
-Your employees live in a world today where the technologies they use outside of work are increasingly better than the technologies they’re expected to use when they show up at the office.  
 
 ###A Decade of Business Processes
 Over the past ten years, corporations have developed internal business processes to support everything from budget forecasts to timekeeping. These processes often develop dependencies to software applications, and as the processes mature, the applications become more deeply embedded. Microsoft Excel is a good example. Excel has become tied directly to business processes to the point where replacing it was neither cost effective nor practical. The process was built around the capabilities of the tools available (Excel), and over time the tool itself evolved to better support the process as users built macros and VBA modules. 

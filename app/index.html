@@ -47,7 +47,13 @@ title: Applied by Design Blog
             </div>
             
           <!-- Post preview -->
-          {{ post.excerpt }} 
+          {% if post.blurb %}
+            <p>{{ post.blurb }} </p>
+          {% elsif post.excerpt %}
+            {{ post.excerpt }} 
+          {% endif %}
+
+
         </div>
         <!-- <h4 class="text-right">read more > </h4> -->
           
