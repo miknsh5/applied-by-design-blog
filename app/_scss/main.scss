@@ -20,19 +20,24 @@
 // @import "sass-bootstrap/lib/bootstrap.scss";
 @import 'sass-bootstrap/lib/bootstrap.scss';
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800,600);
-@import '../fonts/myfonts';
 @import 'lib/axd-mixins'; 
 @import 'lib/axd-colors'; 
 @import 'lib/global-overrides'; 
+@import 'lib/buttons'; 
+@import '../fonts/myfonts';
 @import 'lib/axd-variables'; 
 @import 'lib/utilities'; 
 @import 'lib/logo'; 
 @import 'lib/landing'; 
 @import 'lib/footer'; 
-@import 'lib/buttons'; 
 
 
 
+.home {
+  position: absolute;
+  top: 80px;
+  left: 0;
+}
 
 .blog-inner {
   max-width: 52em;
@@ -96,6 +101,7 @@ ul.posts span {
     width: 100%;
     margin-top: -120px;
     text-align: center;
+    position: relative;
 
     img {
       width: 100px;

@@ -1,1 +1,7 @@
-../../../../applied-by-design/app/styles/lib/_axd-mixins.scss
+// My Mixins
+//------------------
+// support for REM font sizing including IE8 fallback pixels
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}

@@ -1,1 +1,94 @@
-../../../../applied-by-design/app/styles/lib/_landing.scss
+// Page Landing Section
+// __________________________________
+@import 'compass/css3/background-size';
+
+
+.landing {
+  // font-family: 'Open Sans', sans-serif !important;
+
+  @include background-size(cover);
+  height: 100%;
+  max-width: 100%;
+  top: 0;
+
+  // @media (max-width: 480px) {
+  //   height: 400px;
+  // }
+
+  &.home {
+    // background-image: url('../images/runway-02.jpg');
+    // background-image: url('../images/seats-02.jpg');
+    background-image: url('../images/seats-dark-bg.jpg');
+    position: fixed;
+    width: 100%;
+  }
+  &.blog {
+    // background-image: url('../images/runway-02.jpg');
+    // background-image: url('../images/seats-02.jpg');
+    background-image: url('../image/plane-header.jpg');
+    position: fixed;
+    width: 100%;
+  }
+
+  img {
+    @include transition(margin-top, 0.2s);
+    margin-top: 0px;
+    width: 50px;
+
+    &:hover {
+      margin-top: 5px;
+    }
+  }
+
+}
+
+.greeting {
+  position: relative;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 300px;
+  z-index: 1;
+  opacity: 1;
+
+  &.fade {
+    opacity: 0 !important;
+  }
+
+  h2 {
+    @include font-size(5);
+    font-weight: 600;
+    color: $color-text-white;
+  }
+
+  h3 {
+    @include font-size(3);
+    font-weight: 100;
+    color: $color-text-white;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  .divider {
+    border-bottom: 1px solid #AAA;
+    width: 70%;
+    margin: auto;
+  }
+
+  &.blog {
+    margin-top: 120px;
+  }
+
+  @media (max-width: 480px) {
+    margin-top: 150px;
+  }
+
+  .inner {
+    max-width: 600px;
+    margin: 0 auto;
+
+  }
+}

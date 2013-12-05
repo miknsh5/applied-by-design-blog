@@ -1,1 +1,11 @@
-../../../../applied-by-design/app/styles/lib/_logo.scss
+.logo {
+  img {
+    width: 110px;
+    margin: 0;
+  }
+}
+
+.navbar-brand {
+  padding: 10px 10px;
+  margin-top: 3px;
+}
